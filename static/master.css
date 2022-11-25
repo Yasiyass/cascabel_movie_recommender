@@ -1,0 +1,49 @@
+.content {
+  max-width: 800px;
+  margin: auto;
+}
+
+
+h1{
+  font-family:sans-serif;
+  text-align: center;
+}
+
+h2{
+  font-family: monospace;
+  font-weight: bold;
+}
+
+form{
+  font-weight:bolder;
+  font-size: 20px;
+  font-style:normal;
+  font-family: monospace;
+
+}
+
+#submit{
+  width: 100px;  height: 50px;
+  align-self: center;
+
+}
+
+.recommendlist{
+  font-weight:bolder;
+  font-size: 15px;
+  font-style:normal;
+  background-color:white;
+  border-width:thick;
+  font-family: monospace;
+}
+
+#popcorn{
+  font-size: 20px;
+  color:red;
+  font-family: fantasy;
+  font-weight: bolder;
+}
+
+body{
+  background-color: #F8EED2
+}

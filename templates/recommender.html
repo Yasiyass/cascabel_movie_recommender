@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>{{title1}}</title>
+    <link rel="stylesheet" href="/static/master.css">
+  </head>
+
+  <body>
+  <div class="content">
+
+    <img src="https://images.unsplash.com/photo-1608170825938-a8ea0305d46c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60" alt="">
+
+<h2>Here are the top 10 recommendations based on your rating:</h2>
+<p id='popcorn'>Dont forget the popcorn!</p>
+<div class="recommendlist">
+  <ol>
+    {%for f in films_var%}
+      <li>{{f}}</li>
+    {%endfor%}
+
+  </ol>
+</div>
+
+<a href="https://www.rottentomatoes.com/">Check their rating on rotten tomatoes website!</a>
+
+<h2>Did you like the recommendations?</h2>
+
+<form>
+  <label for="yes">yes</label>
+  <input type="radio" id="yes" name="like" value="yes">
+  <label for="no">no</label>
+  <input type="radio" id="no" name="like" value="no">
+
+</form>
+
+<p>Any other comments?</p>
+
+<textarea name="name" rows="8" cols="80"></textarea>
+  </div>
+  </body>
+
+</html>
